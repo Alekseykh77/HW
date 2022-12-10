@@ -8,6 +8,6 @@ public class Palindrome {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPalindrome("Аргентина манит негра"));
+        System.out.println(isPalindrome("Лев осовел"));
     }
 }
