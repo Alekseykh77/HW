@@ -1,5 +1,6 @@
 package hw2;
-
+/*Напишите метод, который составит строку, состоящую из 100 повторений слова TEST и метод,
+который запишет эту строку в простой текстовый файл, обработайте исключения.*/
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
