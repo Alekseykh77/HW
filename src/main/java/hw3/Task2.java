@@ -30,7 +30,7 @@ public class Task2 {
         float average = (float)sumItems/list1.size();
         System.out.printf("Максимальное значение: %s\n", maxItem);
         System.out.printf("Минимальное значение: %s\n", minItem);
-        System.out.printf("Среднее арифметическое %s\n", average);
+        System.out.printf("Среднее арифметическое: %s\n", average);
     }
 }
 
