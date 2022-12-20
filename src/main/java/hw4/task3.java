@@ -3,9 +3,10 @@ package hw4;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+/*Реализовать методы Queue*/
+
 public class task3 {
 
-    /*Реализовать методы Queue*/
     private static LinkedList<String> queue = new LinkedList<>();
 
     public static void main(String[] args) {

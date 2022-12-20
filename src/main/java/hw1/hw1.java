@@ -58,7 +58,7 @@ public class hw1 {
     static void doTask4(String str, int n) {
         System.out.println("\nЗадание 4");
         for (int i = 1; i <= n; i++) {
-            System.out.print(i + ")" + str+" ");
+            System.out.print(i + ")" + str + " ");
         }
     }
 
