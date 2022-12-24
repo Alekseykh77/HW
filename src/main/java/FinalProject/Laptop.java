@@ -190,17 +190,17 @@ public class Laptop {
     public static Set<Laptop> createLaptopSet() {
         Set<Laptop> laptopSet = new HashSet<>();
         laptopSet.add(new Laptop(1, "Samsung", 4, 256, "AMD Ryzen 5", "Intel UHD Graphics",
-                "Windows 10 Pro", 15.6, "черный",2.0, 60000));
+                "Windows 10 Pro", 15.6, "черный", 2.0, 60000));
         laptopSet.add(new Laptop(2, "Dell", 8, 512, "Intel Core i3", "MSI GeForce",
-                "Windows 10 Home", 17.3,"серый", 2.0, 70000));
+                "Windows 10 Home", 17.3, "серый", 2.0, 70000));
         laptopSet.add(new Laptop(3, "Lenovo", 2, 128, "Intel Celeron", "Colorful GeForce",
-                "DOS", 15.6, "белый",1.7, 35000));
+                "DOS", 15.6, "белый", 1.7, 35000));
         laptopSet.add(new Laptop(4, "HP", 4, 512, "Intel Core i7", "NVIDIA GeForce MX350",
                 "без ОС", 14.0, "серебристый", 1.5, 45000));
         laptopSet.add(new Laptop(5, "Asus", 16, 256, "AMD Ryzen 7", "ASUS GeForce",
-                "Linux", 15.6, "белый",1.9, 50000));
+                "Linux", 15.6, "белый", 1.9, 50000));
         laptopSet.add(new Laptop(6, "Acer", 16, 512, "Intel Core i7", "Intel UHD Graphics",
-                "Endless OS", 17.3, "черный",2.1, 75000));
+                "Endless OS", 17.3, "черный", 2.1, 75000));
         for (Laptop i : laptopSet) {
             System.out.println(i);
         }
