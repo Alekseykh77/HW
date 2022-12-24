@@ -211,7 +211,7 @@ public class Laptop {
         Map<String, String> filterMap = new HashMap<>();
         String key = "";
         while (!key.equals("q")) {
-            System.out.printf("Выберите необходимай критерий:\n" +
+            System.out.printf("Выберите необходимый критерий:\n" +
                     "1 - Модель ноутбука\n" +
                     "2 - ОЗУ, ГБ\n" +
                     "3 - Объем HD, ГБ\n" +
