@@ -222,13 +222,11 @@ public class Laptop {
                     "8 - Цвет\n" +
                     "9 - Вес, кг\n" +
                     "10 - Цена, руб.\n" +
-                    "q - Сохранить критерии и выйти\n" +
-                    "-> ");
+                    "q - Сохранить критерий и выйти\n");
             Scanner scn = new Scanner(System.in);
             key = scn.nextLine();
             if (!key.equals("q")) {
-                System.out.printf("Введите значение критерия:\n" +
-                        "-> ");
+                System.out.printf("Введите значение критерия: ");
                 String value = scn.nextLine();
                 filterMap.put(key, value);
             }
